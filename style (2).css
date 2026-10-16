@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+body {
+  background: linear-gradient(165deg in srgb, #da9100 0%, #cd7f32 50%, #b87333 100%);
+  margin: 0;
+  padding: 0;
+  border: 2px solid black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-family: 'Merriweather', sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #333333, #5F6266);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+.header h1 {
+  color: #C04000;
+  margin: 0 0 10px 0;
+  font-size: auto;
+}
+
+.navs a {
+  text-decoration: none;
+  align-items: center;
+  font-size: 1.4rem;
+  color: white;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.abtmain {
+  flex: 1 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px 20px;
+}
+
+.abtmainw {
+  background-color: white;
+  border: 2px solid black;
+  margin: 40px auto;
+  max-width: 700px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+.abtmain h2 {
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 32px;
+}
+
+.abtmainp {
+  text-align: center;
+  font-family: 'Barlow', serif;
+  font-size: clamp(16px, 2vw + 10px, 22px) !important;
+  line-height: 1.6;
+  width: 90% !important;
+  max-width: 700px !important;
+  margin: 0 auto !important;
+}
+
+.catdes {
+  font-family: 'Merriweather', sans-serif;
+  text-align: center;
+}
+
+.catdesc, .catdesc2 {
+  font-family: 'Barlow', serif;
+  text-align: center;
+}
+
+.catdesc {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cont {
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center;
+}
+
+.con {
+  flex: 1 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 40px 20px;
+}
+
+.category {
+  text-align: center;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  background: linear-gradient(to top, #333333, #5F6266);
+  border: 2px solid black;
+  width: 100%;
+  padding: 25px 0;
+  margin-top: auto;
+  box-sizing: border-box;
+}
+
+.footcon {
+  text-align: center;
+  color: #C04000;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-family: 'Merriweather';
+}
+
+.tagline {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  margin: 5px 0 15px 0;
+  width: auto;
+  font-family: 'Barlow';
+}
+
+.links {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1.5px solid black;
+  display: inline-block;
+}
+
+.footer-content {
+  text-align: center;
+  color: white;
+  font-size: 1.1rem;
+  margin: 10px 0 0 0;
+}
+
+.footcon1 {
+  text-align: center;
+  color: #C04000;
+  width: 100%;
+  font-size: 1.4rem;
+}
+
+.imageleft {
+  width: 140px;
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.arc1l {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+a:hover {
+  color: gray;
+}
+
+.articleR {
+  border: 2px solid white;
+  border-radius: 16px;
+  background-color: black;
+  width: 550px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 18%;
+}
+
+.imageright {
+  width: 140px;
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.arc2l {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  line-height: 25px;
+}
+
+.articleL {
+  border: 2px solid white;
+  border-radius: 16px;
+  background-color: black;
+  width: 550px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 37px;
+  display: flex;
+  align-items: center;
+}
+
+.articleC {
+  border: 2px solid white;
+  border-radius: 16px;
+  background-color: black;
+  width: 550px;
+  height: 330px;
+  margin-left: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-self: center;
+  float: center;
+}
+
+.arc1c {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  margin-top: 100px;
+  line-height: 25px;
+}
+
+.imagecenter {
+  width: 140px;
+  height: 140px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+}
+
+main { flex: 1; }
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.articleR, .articleL, .articleC {
+  width: auto;
+  height: auto;
+  min-height: 200px;
+  margin: 0;
+  float: none;
+  padding: 16px;
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.articleC {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 100%;
+  max-width: 550px;
+}
+
+.imageleft, .imageright, .imagecenter {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.arc1l, .arc2l, .arc1c { margin: 0; }
+
+@media (max-width: 420px) {
+  .articleR, .articleL, .articleC {
+    flex-direction: column;
+    text-align: center;
+  }
+}
